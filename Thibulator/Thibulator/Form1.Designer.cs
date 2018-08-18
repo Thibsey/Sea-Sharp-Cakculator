@@ -57,7 +57,7 @@
             this.buttonSeven.Location = new System.Drawing.Point(7, 71);
             this.buttonSeven.Name = "buttonSeven";
             this.buttonSeven.Size = new System.Drawing.Size(45, 45);
-            this.buttonSeven.TabIndex = 0;
+            this.buttonSeven.TabIndex = 6;
             this.buttonSeven.Text = "7";
             this.buttonSeven.UseVisualStyleBackColor = true;
             this.buttonSeven.Click += new System.EventHandler(this.buttonNumber_Click);
@@ -134,7 +134,7 @@
             this.buttonCalc.Location = new System.Drawing.Point(211, 173);
             this.buttonCalc.Name = "buttonCalc";
             this.buttonCalc.Size = new System.Drawing.Size(55, 96);
-            this.buttonCalc.TabIndex = 6;
+            this.buttonCalc.TabIndex = 0;
             this.buttonCalc.Text = "=";
             this.buttonCalc.UseVisualStyleBackColor = true;
             this.buttonCalc.Click += new System.EventHandler(this.buttonCalc_Click);
@@ -193,6 +193,7 @@
             this.buttonOne.Text = "1";
             this.buttonOne.UseVisualStyleBackColor = true;
             this.buttonOne.Click += new System.EventHandler(this.buttonNumber_Click);
+            this.buttonOne.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.key_49);
             // 
             // buttonFive
             // 
