@@ -1,10 +1,10 @@
 D:\RNO\3.Developer\4 C#\CSCalc\Thibulator\Thibulator\bin\Debug\Thibulator.exe.config
 D:\RNO\3.Developer\4 C#\CSCalc\Thibulator\Thibulator\bin\Debug\Thibulator.exe
 D:\RNO\3.Developer\4 C#\CSCalc\Thibulator\Thibulator\bin\Debug\Thibulator.pdb
-D:\RNO\3.Developer\4 C#\CSCalc\Thibulator\Thibulator\obj\Debug\Thibulator.csprojAssemblyReference.cache
 D:\RNO\3.Developer\4 C#\CSCalc\Thibulator\Thibulator\obj\Debug\Thibulator.Thibsulator.resources
 D:\RNO\3.Developer\4 C#\CSCalc\Thibulator\Thibulator\obj\Debug\Thibulator.Properties.Resources.resources
 D:\RNO\3.Developer\4 C#\CSCalc\Thibulator\Thibulator\obj\Debug\Thibulator.csproj.GenerateResource.cache
 D:\RNO\3.Developer\4 C#\CSCalc\Thibulator\Thibulator\obj\Debug\Thibulator.csproj.CoreCompileInputs.cache
 D:\RNO\3.Developer\4 C#\CSCalc\Thibulator\Thibulator\obj\Debug\Thibulator.exe
 D:\RNO\3.Developer\4 C#\CSCalc\Thibulator\Thibulator\obj\Debug\Thibulator.pdb
+D:\RNO\3.Developer\4 C#\CSCalc\Thibulator\Thibulator\obj\Debug\Thibulator.csprojAssemblyReference.cache

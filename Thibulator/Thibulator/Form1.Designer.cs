@@ -193,7 +193,6 @@
             this.buttonOne.Text = "1";
             this.buttonOne.UseVisualStyleBackColor = true;
             this.buttonOne.Click += new System.EventHandler(this.buttonNumber_Click);
-            this.buttonOne.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.key_49);
             // 
             // buttonFive
             // 
@@ -300,11 +299,13 @@
             this.Controls.Add(this.buttonSeven);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.KeyPreview = true;
             this.MaximizeBox = false;
             this.Name = "Thibsulator";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Thibsulator";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.numberKey);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -107,10 +107,82 @@ namespace Thibulator
         {
 
         }
+        
+       
 
-        private void key_49(object sender, KeyPressEventArgs e)
+        private void numberKey(object sender, KeyEventArgs e)
         {
 
+            //if ((textBoxResult.Text == "0") || (isOperationPerformed))
+                //textBoxResult.Clear();
+            textBoxResult.Text = e.KeyCode.ToString();
+            //isOperationPerformed = false;
+
+            switch (e.KeyCode.ToString())
+            {
+                case "D1":
+                    textBoxResult.Text += "1";
+                    break;
+                case "NumPad1":
+                    textBoxResult.Text += "1";
+                    break;
+                case "D2":
+                    textBoxResult.Text += "2";
+                    break;
+                case "NumPad2":
+                    textBoxResult.Text += "2";
+                    break;
+                case "D3":
+                    textBoxResult.Text += "3";
+                    break;
+                case "NumPad3":
+                    textBoxResult.Text += "3";
+                    break;
+                case "D4":
+                    textBoxResult.Text += "4";
+                    break;
+                case "NumPad4":
+                    textBoxResult.Text += "4";
+                    break;
+                case "D5":
+                    textBoxResult.Text += "5";
+                    break;
+                case "NumPad5":
+                    textBoxResult.Text += "5";
+                    break;
+                case "D6":
+                    textBoxResult.Text += "6";
+                    break;
+                case "NumPad6":
+                    textBoxResult.Text += "6";
+                    break;
+                case "D7":
+                    textBoxResult.Text += "7";
+                    break;
+                case "NumPad7":
+                    textBoxResult.Text += "7";
+                    break;
+                case "D8":
+                    textBoxResult.Text += "8";
+                    break;
+                case "NumPad8":
+                    textBoxResult.Text += "8";
+                    break;
+                case "D9":
+                    textBoxResult.Text += "9";
+                    break;
+                case "NumPad9":
+                    textBoxResult.Text += "9";
+                    break;
+                case "D0":
+                    textBoxResult.Text += "0";
+                    break;
+                case "NumPad0":
+                    textBoxResult.Text += "0";
+                    break;
+                default:
+                    break;
+            }
         }
     }
 }
