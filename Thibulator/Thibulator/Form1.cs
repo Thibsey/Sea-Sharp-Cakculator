@@ -23,7 +23,7 @@ namespace Thibulator
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void buttonNumber_Click(object sender, EventArgs e)
@@ -51,6 +51,7 @@ namespace Thibulator
             if (resultValue != 0)
             {
                 buttonCalc.PerformClick();
+                operationPerformed = button.Text;
                 labelCurrentOperation.Text = resultValue + " " + operationPerformed;
                 isOperationPerformed = true;
             } else
@@ -93,7 +94,11 @@ namespace Thibulator
                     break;
                 default:
                     break;
+
             }
+
+            resultValue = Double.Parse(textBoxResult.Text);
+            labelCurrentOperation.Text = "";
         }
 
         
