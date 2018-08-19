@@ -101,14 +101,10 @@ namespace Thibulator
             labelCurrentOperation.Text = "";
         }
 
-        
-
         private void textBoxResult_TextChanged(object sender, EventArgs e)
         {
 
         }
-        
-       
 
         private void numberKey(object sender, KeyEventArgs e)
         {
@@ -289,8 +285,9 @@ namespace Thibulator
                     default:
                         break;
                 }
-
             }
+            resultValue = Double.Parse(textBoxResult.Text);
+            labelCurrentOperation.Text = "";
         }
     }
 }
