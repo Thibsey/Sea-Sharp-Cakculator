@@ -115,9 +115,8 @@ namespace Thibulator
 
             //if ((textBoxResult.Text == "0") || (isOperationPerformed))
                 //textBoxResult.Clear();
-            textBoxResult.Text = e.KeyCode.ToString();
             //isOperationPerformed = false;
-
+            
             switch (e.KeyCode.ToString())
             {
                 case "D1":
@@ -182,6 +181,115 @@ namespace Thibulator
                     break;
                 default:
                     break;
+            }
+        }
+
+        private void operatorPress(object sender, KeyEventArgs e)
+        {
+            if (resultValue != 0)
+            {
+                buttonCalc.PerformClick();
+                switch (e.KeyCode.ToString())
+                {
+                    case "OemPeriod":
+                        operationPerformed = ".";
+                        labelCurrentOperation.Text = resultValue + " " + operationPerformed;
+                        isOperationPerformed = true;
+                        break;
+                    case "Decimal":
+                        textBoxResult.Text = ".";
+                        break;
+                    case "Oemplus":
+                        operationPerformed = "+";
+                        labelCurrentOperation.Text = resultValue + " " + operationPerformed;
+                        isOperationPerformed = true;
+                        break;
+                    case "Add":
+                        operationPerformed = "+";
+                        labelCurrentOperation.Text = resultValue + " " + operationPerformed;
+                        isOperationPerformed = true;
+                        break;
+                    case "OemMinus":
+                        operationPerformed = "-";
+                        labelCurrentOperation.Text = resultValue + " " + operationPerformed;
+                        isOperationPerformed = true;
+                        break;
+                    case "Subtract":
+                        operationPerformed = "-";
+                        labelCurrentOperation.Text = resultValue + " " + operationPerformed;
+                        isOperationPerformed = true;
+                        break;
+                    case "Multiply":
+                        operationPerformed = "*";
+                        labelCurrentOperation.Text = resultValue + " " + operationPerformed;
+                        isOperationPerformed = true;
+                        break;
+                    case "OemQuestion":
+                        operationPerformed = "/";
+                        labelCurrentOperation.Text = resultValue + " " + operationPerformed;
+                        isOperationPerformed = true;
+                        break;
+                    case "Divide":
+                        operationPerformed = "/";
+                        labelCurrentOperation.Text = resultValue + " " + operationPerformed;
+                        isOperationPerformed = true;
+                        break;
+                    default:
+                        break;
+                }
+
+            }
+            else
+            {
+                switch (e.KeyCode.ToString())
+                {
+                    case "OemPeriod":
+                        operationPerformed = ".";
+                        labelCurrentOperation.Text = resultValue + " " + operationPerformed;
+                        isOperationPerformed = true;
+                        break;
+                    case "Decimal":
+                        textBoxResult.Text = ".";
+                        break;
+                    case "Oemplus":
+                        operationPerformed = "+";
+                        labelCurrentOperation.Text = resultValue + " " + operationPerformed;
+                        isOperationPerformed = true;
+                        break;
+                    case "Add":
+                        operationPerformed = "+";
+                        labelCurrentOperation.Text = resultValue + " " + operationPerformed;
+                        isOperationPerformed = true;
+                        break;
+                    case "OemMinus":
+                        operationPerformed = "-";
+                        labelCurrentOperation.Text = resultValue + " " + operationPerformed;
+                        isOperationPerformed = true;
+                        break;
+                    case "Subtract":
+                        operationPerformed = "-";
+                        labelCurrentOperation.Text = resultValue + " " + operationPerformed;
+                        isOperationPerformed = true;
+                        break;
+                    case "Multiply":
+                        operationPerformed = "*";
+                        labelCurrentOperation.Text = resultValue + " " + operationPerformed;
+                        isOperationPerformed = true;
+                        break;
+                    case "OemQuestion":
+                        operationPerformed = "/";
+                        labelCurrentOperation.Text = resultValue + " " + operationPerformed;
+                        isOperationPerformed = true;
+                        break;
+                    case "Divide":
+                        operationPerformed = "/";
+                        labelCurrentOperation.Text = resultValue + " " + operationPerformed;
+                        isOperationPerformed = true;
+                        break;
+                    default:
+                        break;
+                }
+
             }
         }
     }

@@ -83,6 +83,7 @@
             this.buttonDivide.Text = "/";
             this.buttonDivide.UseVisualStyleBackColor = true;
             this.buttonDivide.Click += new System.EventHandler(this.operator_Click);
+            this.buttonDivide.KeyDown += new System.Windows.Forms.KeyEventHandler(this.operatorPress);
             // 
             // buttonNine
             // 
@@ -116,6 +117,7 @@
             this.buttonAdd.Text = "+";
             this.buttonAdd.UseVisualStyleBackColor = true;
             this.buttonAdd.Click += new System.EventHandler(this.operator_Click);
+            this.buttonAdd.KeyDown += new System.Windows.Forms.KeyEventHandler(this.operatorPress);
             // 
             // buttonDecimal
             // 
@@ -127,6 +129,7 @@
             this.buttonDecimal.Text = ".";
             this.buttonDecimal.UseVisualStyleBackColor = true;
             this.buttonDecimal.Click += new System.EventHandler(this.buttonNumber_Click);
+            this.buttonDecimal.KeyDown += new System.Windows.Forms.KeyEventHandler(this.operatorPress);
             // 
             // buttonCalc
             // 
@@ -182,6 +185,7 @@
             this.buttonSubtract.Text = "-";
             this.buttonSubtract.UseVisualStyleBackColor = true;
             this.buttonSubtract.Click += new System.EventHandler(this.operator_Click);
+            this.buttonSubtract.KeyDown += new System.Windows.Forms.KeyEventHandler(this.operatorPress);
             // 
             // buttonOne
             // 
@@ -226,6 +230,7 @@
             this.buttonMultiply.Text = "*";
             this.buttonMultiply.UseVisualStyleBackColor = true;
             this.buttonMultiply.Click += new System.EventHandler(this.operator_Click);
+            this.buttonMultiply.KeyDown += new System.Windows.Forms.KeyEventHandler(this.operatorPress);
             // 
             // buttonClear
             // 
