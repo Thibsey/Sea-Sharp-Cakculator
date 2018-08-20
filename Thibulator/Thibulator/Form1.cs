@@ -29,6 +29,7 @@ namespace Thibulator
         private void buttonNumber_Click(object sender, EventArgs e)
         {
 
+            // I showed my dad what github is
             if ((textBoxResult.Text == "0") || (isOperationPerformed))
                 textBoxResult.Clear();
 
